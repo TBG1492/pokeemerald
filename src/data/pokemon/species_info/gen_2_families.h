@@ -1243,8 +1243,8 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .baseAttack    = 58,
         .baseDefense   = 58,
         .baseSpeed     = 67,
-        .baseSpAttack  = 76,
-        .baseSpDefense = 76,
+        .baseSpAttack  = 86,
+        .baseSpDefense = 86,
         .types = MON_TYPES(TYPE_WATER, TYPE_ELECTRIC),
         .catchRate = 75,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 161 : 156,
@@ -5529,15 +5529,15 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
     #define CORSOLA_EXP_YIELD 113
 #endif
 #define CORSOLA_HP       (P_UPDATED_STATS >= GEN_7 ? 65 : 55)
-#define CORSOLA_DEFENSES (P_UPDATED_STATS >= GEN_7 ? 95 : 85)
+#define CORSOLA_DEFENSES (P_UPDATED_STATS >= GEN_7 ? 105 : 85)
 
     [SPECIES_CORSOLA] =
     {
         .baseHP        = CORSOLA_HP,
-        .baseAttack    = 55,
+        .baseAttack    = 75,
         .baseDefense   = CORSOLA_DEFENSES,
         .baseSpeed     = 35,
-        .baseSpAttack  = 65,
+        .baseSpAttack  = 85,
         .baseSpDefense = CORSOLA_DEFENSES,
         .types = MON_TYPES(TYPE_WATER, TYPE_ROCK),
         .catchRate = 60,

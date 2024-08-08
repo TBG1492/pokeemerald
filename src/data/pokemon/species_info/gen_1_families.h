@@ -6469,10 +6469,10 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_GOLDUCK] =
     {
         .baseHP        = 80,
-        .baseAttack    = 82,
+        .baseAttack    = 92,
         .baseDefense   = 78,
         .baseSpeed     = 85,
-        .baseSpAttack  = 95,
+        .baseSpAttack  = 105,
         .baseSpDefense = 80,
         .types = MON_TYPES(TYPE_WATER),
         .catchRate = 75,
@@ -12583,8 +12583,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseAttack    = 140,
         .baseDefense   = 130,
         .baseSpeed     = 40,
-        .baseSpAttack  = 55,
-        .baseSpDefense = 55,
+        .baseSpAttack  = 45,
+        .baseSpDefense = 105,
         .types = MON_TYPES(TYPE_GROUND, TYPE_ROCK),
         .catchRate = 30,
     #if P_UPDATED_EXP_YIELDS >= GEN_8
@@ -13237,11 +13237,11 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 #if P_GEN_2_CROSS_EVOS
     [SPECIES_KINGDRA] =
     {
-        .baseHP        = 75,
+        .baseHP        = 95,
         .baseAttack    = 95,
         .baseDefense   = 95,
         .baseSpeed     = 85,
-        .baseSpAttack  = 95,
+        .baseSpAttack  = 105,
         .baseSpDefense = 95,
         .types = MON_TYPES(TYPE_WATER, TYPE_DRAGON),
         .catchRate = 45,

@@ -8923,10 +8923,10 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_GLALIE] =
     {
         .baseHP        = 80,
-        .baseAttack    = 80,
+        .baseAttack    = 100,
         .baseDefense   = 80,
-        .baseSpeed     = 80,
-        .baseSpAttack  = 80,
+        .baseSpeed     = 100,
+        .baseSpAttack  = 100,
         .baseSpDefense = 80,
         .types = MON_TYPES(TYPE_ICE),
         .catchRate = 75,
@@ -8990,7 +8990,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
 #if P_MEGA_EVOLUTIONS
     [SPECIES_GLALIE_MEGA] =
     {
-        .baseHP        = 80,
+        .baseHP        = 100,
         .baseAttack    = 120,
         .baseDefense   = 80,
         .baseSpeed     = 100,
@@ -9047,12 +9047,12 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
 #if P_GEN_4_CROSS_EVOS
     [SPECIES_FROSLASS] =
     {
-        .baseHP        = 70,
+        .baseHP        = 80,
         .baseAttack    = 80,
-        .baseDefense   = 70,
+        .baseDefense   = 80,
         .baseSpeed     = 110,
-        .baseSpAttack  = 80,
-        .baseSpDefense = 70,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 80,
         .types = MON_TYPES(TYPE_ICE, TYPE_GHOST),
         .catchRate = 75,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 168 : 187,
@@ -9243,11 +9243,11 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
 
     [SPECIES_WALREIN] =
     {
-        .baseHP        = 110,
-        .baseAttack    = 80,
+        .baseHP        = 120,
+        .baseAttack    = 90,
         .baseDefense   = 90,
         .baseSpeed     = 65,
-        .baseSpAttack  = 95,
+        .baseSpAttack  = 105,
         .baseSpDefense = 90,
         .types = MON_TYPES(TYPE_ICE, TYPE_WATER),
         .catchRate = 45,
@@ -9385,7 +9385,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseHP        = 55,
         .baseAttack    = 104,
         .baseDefense   = 105,
-        .baseSpeed     = 52,
+        .baseSpeed     = 72,
         .baseSpAttack  = 94,
         .baseSpDefense = 75,
         .types = MON_TYPES(TYPE_WATER),
@@ -9447,7 +9447,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseHP        = 55,
         .baseAttack    = 84,
         .baseDefense   = 105,
-        .baseSpeed     = 52,
+        .baseSpeed     = 72,
         .baseSpAttack  = 114,
         .baseSpDefense = 75,
         .types = MON_TYPES(TYPE_WATER),
@@ -9510,7 +9510,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseHP        = 100,
         .baseAttack    = 90,
         .baseDefense   = 130,
-        .baseSpeed     = 55,
+        .baseSpeed     = 75,
         .baseSpAttack  = 45,
         .baseSpDefense = 65,
         .types = MON_TYPES(TYPE_WATER, TYPE_ROCK),
@@ -9579,8 +9579,8 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseHP        = 43,
         .baseAttack    = 30,
         .baseDefense   = 55,
-        .baseSpeed     = 97,
-        .baseSpAttack  = 40,
+        .baseSpeed     = 107,
+        .baseSpAttack  = 90,
         .baseSpDefense = 65,
         .types = MON_TYPES(TYPE_WATER),
         .catchRate = 225,
@@ -9902,7 +9902,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseSpAttack  = 35,
         .baseSpDefense = 60,
         .types = MON_TYPES(TYPE_STEEL, TYPE_PSYCHIC),
-        .catchRate = 3,
+        .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 60 : 103,
         .evYield_Defense = 1,
         .itemRare = ITEM_METAL_COAT,
@@ -10150,7 +10150,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
 #if P_FAMILY_REGIROCK
     [SPECIES_REGIROCK] =
     {
-        .baseHP        = 80,
+        .baseHP        = 100,
         .baseAttack    = 100,
         .baseDefense   = 200,
         .baseSpeed     = 50,
@@ -10220,7 +10220,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
 #if P_FAMILY_REGICE
     [SPECIES_REGICE] =
     {
-        .baseHP        = 80,
+        .baseHP        = 100,
         .baseAttack    = 50,
         .baseDefense   = 100,
         .baseSpeed     = 50,
@@ -10289,7 +10289,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
 #if P_FAMILY_REGISTEEL
     [SPECIES_REGISTEEL] =
     {
-        .baseHP        = 80,
+        .baseHP        = 100,
         .baseAttack    = 75,
         .baseDefense   = 150,
         .baseSpeed     = 50,
